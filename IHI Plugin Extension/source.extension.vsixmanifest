@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="IHI_Plugin_Template_Extension..82ff17d1-4d04-42c9-8579-45246ef5bce6" Version="1.0" Language="en-US" Publisher="Cecer" />
+    <DisplayName>IHI Plugin Template Extension</DisplayName>
+    <Description xml:space="preserve"></Description>
+    <Icon>__TemplateIcon.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\IHI Plugin Template.zip" />
+  </Assets>
+</PackageManifest>
