@@ -4,6 +4,14 @@ namespace IHI.Server.Plugins.$safeprojectname$
 {
     public class $safeprojectname$ : Plugin
     {
+        public override string Id
+        {
+            get
+            {
+                return "$username$:$projectname";
+            }
+        }
+        
         public override string Name
         {
             get
